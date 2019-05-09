@@ -1,0 +1,26 @@
+/**index.wxss**/
+
+button{
+  margin: 50rpx 50rpx 50rpx 50rpx;
+}
+.contentView1{
+  margin: 50rpx 50rpx 0 50rpx;
+  height: 550rpx;
+  background-color: lightcyan
+}
+.contentView2{
+  margin: 0 50rpx 0 50rpx;
+  height: 550rpx;
+  background-color: lavenderblush;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.watermarkView{
+  margin: 200rpx;
+  position: absolute;
+  z-index: 999;
+  opacity: 0.9;
+  top: 0rpx;
+  width: 100%;
+}
