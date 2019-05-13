@@ -1,7 +1,7 @@
 /**index.wxss**/
-
 button{
   margin: 50rpx 50rpx 50rpx 50rpx;
+  z-index: 10
 }
 .contentView1{
   margin: 50rpx 50rpx 0 50rpx;
@@ -17,9 +17,8 @@ button{
   align-items: center;
 }
 .watermarkView{
-  margin: 200rpx;
   position: absolute;
-  z-index: 999;
+  z-index: 5;
   opacity: 0.9;
   top: 0rpx;
   width: 100%;
